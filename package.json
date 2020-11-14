@@ -1,0 +1,16 @@
+{
+  "name": "@figouzes/fig-one",
+  "description": "",
+  "version": "0.1.0",
+  "license": "MIT",
+  "npmClient": "yarn",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": "14"
+  }
+}

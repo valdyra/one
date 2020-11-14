@@ -1,0 +1,10 @@
+{
+  "name": "@figouzes/fig-design",
+  "description": "Design system for the Figouzes project",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "src",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}

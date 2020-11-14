@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "$types": ["./src/types/index"],
+      "$utils": ["./src/types/index"]
+    },
+    "outDir": "dist",
+    "module": "CommonJS",
+    "target": "ES6",
+    "jsx": "react"
+  },
+  "includes": ["src/**/*"]
+}
