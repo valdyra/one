@@ -4,7 +4,15 @@
   "version": "0.1.0",
   "license": "MIT",
   "main": "src",
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {}
+  "scripts": {
+    "prebuild": "rm -rf dist && mkdir dist",
+    "build": "tsc -p ./tsconfig.json --outDir dist",
+    "prepare": "yarn run build"
+  },
+  "dependencies": {
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
 }
