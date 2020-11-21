@@ -1,4 +1,5 @@
 export * from './colors'
+export * from './display'
 
 // Literal union types or enums
 export const stringValue = <T extends string>(x: T): string => `${x}`
