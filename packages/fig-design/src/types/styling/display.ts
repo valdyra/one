@@ -37,6 +37,6 @@ export interface StrictFlexParams {
 
 export type FlexParams = Partial<StrictFlexParams>
 
-export type Flexbox
-  = [FlexDirection, FlexJustify, FlexAlign]
+export type Flexbox =
+  | [FlexDirection, FlexJustify, FlexAlign]
   | [FlexDirection, FlexJustify, FlexAlign, FlexParams]

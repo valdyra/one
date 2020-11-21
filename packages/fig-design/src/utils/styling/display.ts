@@ -14,16 +14,17 @@ export const flexShrink = cssProperty<number>(numberValue)('flex-shrink')
 // Parse flexbox
 const defaultFlexboxParams: StrictFlexParams = {
   grow: 1,
-  shrink: 1
+  shrink: 1,
 }
 
-export const flexbox = ([direction, justify, align, params]: Flexbox): string => cssProperties([
-  display(Display.Flex),
-  flexDirection(direction),
-  justifyContent(justify),
-  alignItems(align),
-  flexGrow(params?.grow ?? defaultFlexboxParams.grow),
-  flexShrink(params?.shrink ?? defaultFlexboxParams.shrink),
-])
+export const flexbox = ([direction, justify, align, params]: Flexbox): string =>
+  cssProperties([
+    display(Display.Flex),
+    flexDirection(direction),
+    justifyContent(justify),
+    alignItems(align),
+    flexGrow(params?.grow ?? defaultFlexboxParams.grow),
+    flexShrink(params?.shrink ?? defaultFlexboxParams.shrink),
+  ])
 
 // Flexboxes
