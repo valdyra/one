@@ -1,4 +1,4 @@
-import { Theme, ThemeColors, } from '$types'
+import { Theme, ThemeColors } from '$types'
 
 export const colors: ThemeColors = {
   dragons: {
@@ -21,7 +21,7 @@ export const colors: ThemeColors = {
       c300: [27, 140, 74],
       c500: [40, 209, 110],
       c700: [91, 240, 153],
-      c900: [171, 255, 206]
+      c900: [171, 255, 206],
     },
     gold: {
       c100: [94, 84, 16],
