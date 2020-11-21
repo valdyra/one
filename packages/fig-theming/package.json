@@ -10,7 +10,7 @@
     "prepare": "yarn run build"
   },
   "dependencies": {
-    "@figouzes/falcon-css": "^0.1.4"
+    "@figouzes/falcon-css": "^0.1.5"
   },
   "devDependencies": {
     "tscpaths": "^0.0.9",
