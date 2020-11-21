@@ -1,12 +1,13 @@
 export * from './colors'
 
-export type Display
-  = 'block'
-  | 'table'
-  | 'flex'
-  | 'grid'
-  | 'inline'
-  | 'inline-block'
-  | 'inline-flex'
-  | 'inline-table'
-  | 'inline-grid'
+export enum Display {
+  Block = 'block',
+  Flex = 'flex',
+  Grid = 'grid',
+  Inline = 'inline',
+  InlineBlock = 'inline-block',
+  InlineFlex = 'inline-flex',
+  InlineGrid = 'inline-grid',
+  InlineTable = 'inline-table',
+  Table = 'table',
+}

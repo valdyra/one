@@ -9,7 +9,8 @@
     "packages/*"
   ],
   "scripts": {
-    "pretty": "prettier --check ./packages/**/*.ts"
+    "pretty": "prettier --check ./packages/**/*.ts",
+    "pretty:fix": "prettier --write ./packages/**/*.ts"
   },
   "dependencies": {
     "prettier": "^2.2.0"

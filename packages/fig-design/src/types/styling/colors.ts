@@ -4,9 +4,7 @@ export type RGB = [OctalNumber, OctalNumber, OctalNumber]
 
 export type RGBA = [OctalNumber, OctalNumber, OctalNumber, Percentage]
 
-export type Hue
-  = RGB
-  | RGBA
+export type Hue = RGB | RGBA
 
 export interface ColorPalette {
   c100: RGB
