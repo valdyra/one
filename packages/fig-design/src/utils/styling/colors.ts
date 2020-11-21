@@ -5,8 +5,7 @@ export const rgba = ([r, g, b, a]: RGBA): string => `rgba(${r},${g},${b},${a})`
 export const rgb = ([r, g, b]: RGB): string => `rgb(${r},${g},${b})`
 
 // Handle Hue properly
-export const hue = ([r, g, b, a]: Hue): string =>
-  a ? rgba([r, g, b, a]) : rgb([r, g, b])
+export const hue = ([r, g, b, a]: Hue): string => (a ? rgba([r, g, b, a]) : rgb([r, g, b]))
 
 // Internal color property
 const colorProperty = cssProperty<Hue>(hue)
