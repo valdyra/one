@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@figouzes/falcon-css@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@figouzes/falcon-css/-/falcon-css-0.1.0.tgz#8c4cf646beb1b2c8ae93e9c3e287c7dfad599dda"
-  integrity sha512-cVeFqoyTwrMTohY3PU0bE1XZX4upWAJlkAaf3u7nVe2YcwvxzfrmfMssJIc3pwAj486FK29lBZNUVg4xv9EV/w==
+"@figouzes/falcon-css@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@figouzes/falcon-css/-/falcon-css-0.1.2.tgz#45f4a42f41d703c8809268c86586d30883b775a7"
+  integrity sha512-PKYrnRVZJf1czIwq3vYkGHNQTFL+LItvqZuDkyJSe0BlkLGuOMl9WwpDz6FfKq8Bta6bs9NgFgHTXbu+WDx1Rw==
 
 typescript@^4.0.5:
   version "4.1.2"

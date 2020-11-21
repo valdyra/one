@@ -1,5 +1,5 @@
-import { RGB, RGBA, Hue } from '$types'
-import { cssProperty } from '$utils'
+import { RGB, RGBA, Hue } from '$fcss/types'
+import { cssProperty } from '$fcss/utils'
 
 export const rgba = ([r, g, b, a]: RGBA): string => `rgba(${r},${g},${b},${a})`
 export const rgb = ([r, g, b]: RGB): string => `rgb(${r},${g},${b})`

@@ -1,5 +1,5 @@
-import { Display, FlexAlign, Flexbox, FlexDirection, FlexJustify, StrictFlexParams } from '$types'
-import { cssProperty, cssProperties, numberValue, stringValue } from '$utils'
+import { Display, FlexAlign, Flexbox, FlexDirection, FlexJustify, StrictFlexParams } from '$fcss/types'
+import { cssProperty, cssProperties, numberValue, stringValue } from '$fcss/utils'
 
 // Display property
 export const display = cssProperty<Display>(stringValue)('display')
