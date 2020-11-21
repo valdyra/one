@@ -1,2 +1,2 @@
-export * from '$figtheming/theme'
-export * from '$figtheming/types'
+export * from '$theme'
+export * from '$types'

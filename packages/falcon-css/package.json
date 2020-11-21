@@ -1,16 +1,17 @@
 {
   "name": "@figouzes/falcon-css",
   "description": "Typesafe CSS composer",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rm -rf dist && mkdir dist",
-    "build": "tsc -p ./tsconfig.json --outDir dist",
+    "build": "tsc -p ./tsconfig.json --outDir dist && tscpaths -p ./tsconfig.json -s ./src -o ./dist",
     "prepare": "yarn run build"
   },
   "dependencies": {},
   "devDependencies": {
+    "tscpaths": "^0.0.9",
     "typescript": "^4.0.5"
   }
 }

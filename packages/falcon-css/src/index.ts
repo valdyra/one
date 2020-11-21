@@ -1,2 +1,2 @@
-export * from '$fcss/utils'
-export * from '$fcss/types'
+export * from '$utils'
+export * from '$types'

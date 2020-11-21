@@ -4,8 +4,8 @@
     "declaration": true,
     "baseUrl": ".",
     "paths": {
-      "$figtheming/theme": ["./src/theme"],
-      "$figtheming/types": ["./src/types/index"]
+      "$theme": ["./src/theme"],
+      "$types": ["./src/types/index"]
     },
     "outDir": "dist",
     "module": "CommonJS",

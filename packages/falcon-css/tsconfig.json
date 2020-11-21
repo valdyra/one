@@ -4,8 +4,8 @@
     "declaration": true,
     "baseUrl": ".",
     "paths": {
-      "$fcss/types": ["./src/types/index"],
-      "$fcss/utils": ["./src/utils/index"]
+      "$types": ["./src/types/index"],
+      "$utils": ["./src/utils/index"]
     },
     "outDir": "dist",
     "module": "CommonJS",
