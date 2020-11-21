@@ -4,13 +4,11 @@
     "baseUrl": ".",
     "paths": {
       "$theme": ["./src/theme"],
-      "$types": ["./src/types/index"],
-      "$utils": ["./src/utils/index"]
+      "$types": ["./src/types/index"]
     },
     "outDir": "dist",
     "module": "CommonJS",
-    "target": "ES6",
-    "jsx": "react"
+    "target": "ES6"
   },
   "includes": ["src/**/*"]
 }

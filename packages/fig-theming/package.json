@@ -1,0 +1,16 @@
+{
+  "name": "@figouzes/fig-theming",
+  "description": "Figouzes theming and design system",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "src",
+  "scripts": {
+    "prebuild": "rm -rf dist && mkdir dist",
+    "build": "tsc -p ./tsconfig.json --outDir dist",
+    "prepare": "yarn run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}

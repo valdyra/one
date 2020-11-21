@@ -1,6 +1,6 @@
 {
-  "name": "@figouzes/fig-design",
-  "description": "Design system for the Figouzes project",
+  "name": "@figouzes/falcon-css",
+  "description": "Typesafe CSS composer",
   "version": "0.1.0",
   "license": "MIT",
   "main": "src",
@@ -9,10 +9,7 @@
     "build": "tsc -p ./tsconfig.json --outDir dist",
     "prepare": "yarn run build"
   },
-  "dependencies": {
-    "@emotion/react": "^11.1.0",
-    "react": "^17.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "typescript": "^4.0.5"
   }
