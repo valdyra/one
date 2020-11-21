@@ -10,6 +10,7 @@
     "prepare": "yarn run build"
   },
   "dependencies": {
+    "@emotion/react": "^11.1.0",
     "react": "^17.0.1"
   },
   "devDependencies": {

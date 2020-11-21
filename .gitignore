@@ -1,3 +1,9 @@
-*node_modules/
-*dist/
-*.DS_Store
+# Local directories
+node_modules/
+dist/
+
+# OS X artifacts
+.DS_Store
+
+# Private filese
+.env

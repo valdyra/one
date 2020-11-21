@@ -1,9 +1,14 @@
 import { ColorPalette } from '$types'
 
 export interface ThemeColors {
-  primary: ColorPalette
-  secondary: ColorPalette
-  tertiary: ColorPalette
+  dragons: {
+    red: ColorPalette
+    blue: ColorPalette
+    black: ColorPalette
+    white: ColorPalette
+    green: ColorPalette
+    gold: ColorPalette
+  }
 }
 
 export interface Theme {
