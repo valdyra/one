@@ -5,5 +5,8 @@ dist/
 # OS X artifacts
 .DS_Store
 
+# Yarn artifacts
+yarn-error.log
+
 # Private filese
 .env
