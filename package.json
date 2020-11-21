@@ -4,10 +4,6 @@
   "version": "0.1.0",
   "license": "MIT",
   "npmClient": "yarn",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "pretty": "prettier --check ./packages/**/*.ts",
     "pretty:fix": "prettier --write ./packages/**/*.ts"
