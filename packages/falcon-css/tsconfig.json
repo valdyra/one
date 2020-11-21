@@ -1,6 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "declaration": true,
     "baseUrl": ".",
     "paths": {
       "$types": ["./src/types/index"],
