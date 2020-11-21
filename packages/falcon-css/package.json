@@ -1,9 +1,10 @@
 {
   "name": "@figouzes/falcon-css",
   "description": "Typesafe CSS composer",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "MIT",
   "main": "dist/index.js",
+  "repository": "https://github.com/figouzes-articulees/fig-one/tree/main/packages/falcon-css",
   "scripts": {
     "prebuild": "rm -rf dist && mkdir dist",
     "build": "tsc -p ./tsconfig.json --outDir dist && tscpaths -p ./tsconfig.json -s ./src -o ./dist",
