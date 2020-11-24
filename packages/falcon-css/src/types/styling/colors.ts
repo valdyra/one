@@ -1,4 +1,4 @@
-import { OctalNumber } from '$types'
+import { OctalNumber, VariableValue } from '$types'
 
 export type RGB = [OctalNumber, OctalNumber, OctalNumber]
 
@@ -13,3 +13,5 @@ export interface ColorPalette {
   c700: RGB
   c900: RGB
 }
+
+export type VariableHue = VariableValue<Hue>

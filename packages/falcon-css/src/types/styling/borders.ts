@@ -1,4 +1,4 @@
-import { CssSize, Hue } from '$types'
+import { CssSize, Hue, VariableValue } from '$types'
 
 export enum BorderStyle {
   Dashed = 'dashed',
@@ -12,5 +12,7 @@ export enum BorderStyle {
   Ridge = 'ridge',
   Solid = 'solid',
 }
+
+export type VariableBorderStyle = VariableValue<BorderStyle>
 
 export type CssBorder = [CssSize, BorderStyle, Hue]
