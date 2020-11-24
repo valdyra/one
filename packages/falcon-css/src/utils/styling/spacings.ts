@@ -1,5 +1,7 @@
 import { CssSize, VariableCssSize } from '$types'
-import { cssProperty, cssSize, variableCssSize } from '$utils'
+
+import { cssProperty } from '.'
+import { cssSize, variableCssSize } from './parsers'
 
 // Margin functions
 export const margin = cssProperty<VariableCssSize>(variableCssSize)('margin')

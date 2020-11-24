@@ -1,4 +1,7 @@
-import { CssSize, Hue, VariableValue } from '$types'
+import { VariableValue } from '.'
+import { Hue } from './colors'
+import { CssSize } from './size'
+
 
 export enum BorderStyle {
   Dashed = 'dashed',

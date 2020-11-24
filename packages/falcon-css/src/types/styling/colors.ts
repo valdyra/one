@@ -1,4 +1,5 @@
-import { OctalNumber, VariableValue } from '$types'
+import { VariableValue } from '.'
+import { OctalNumber } from '../number'
 
 export type RGB = [OctalNumber, OctalNumber, OctalNumber]
 

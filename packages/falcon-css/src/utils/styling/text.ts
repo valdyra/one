@@ -1,5 +1,7 @@
 import { CssSize, Hue } from '$types'
-import { cssProperty, cssSize, hue, stringValue } from '$utils'
+
+import { cssProperty } from '.'
+import { cssSize, hue, stringValue } from './parsers'
 
 export const fontFamily = cssProperty<string>(stringValue)('font-family')
 

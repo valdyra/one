@@ -1,5 +1,7 @@
 import { Position, CssSize } from '$types'
-import { cssProperty, numberValue, cssSize, stringValue } from '$utils'
+
+import { cssProperty } from '.'
+import { cssSize, numberValue, stringValue } from './parsers'
 
 export const position = cssProperty<Position>(stringValue)('position')
 export const zIndex = cssProperty<number>(numberValue)('z-index')

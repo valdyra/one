@@ -1,5 +1,6 @@
 import { Display, FlexAlign, Flexbox, FlexDirection, FlexJustify, StrictFlexParams } from '$types'
-import { cssProperty, cssProperties, numberValue, stringValue } from '$utils'
+import { cssProperties, cssProperty } from '.'
+import { numberValue, stringValue } from './parsers'
 
 // Display property
 export const display = cssProperty<Display>(stringValue)('display')
