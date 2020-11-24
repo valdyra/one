@@ -7,6 +7,7 @@ export enum Display {
   InlineFlex = 'inline-flex',
   InlineGrid = 'inline-grid',
   InlineTable = 'inline-table',
+  None = 'none',
   Table = 'table',
 }
 

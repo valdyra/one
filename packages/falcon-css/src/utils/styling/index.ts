@@ -1,9 +1,7 @@
 export * from './colors'
 export * from './display'
-
-// Literal union types or enums
-export const stringValue = <T extends string>(x: T): string => `${x}`
-export const numberValue = (x: number): string => `${x}`
+export * from './parsers'
+export * from './position'
 
 // Raw CSS property line
 export const cssProperty = <T>(parseFunc: (x: T) => string) => (property: string) => (

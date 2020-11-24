@@ -1,8 +1,8 @@
-import { OctalNumber, Percentage } from '$types'
+import { OctalNumber } from '$types'
 
 export type RGB = [OctalNumber, OctalNumber, OctalNumber]
 
-export type RGBA = [OctalNumber, OctalNumber, OctalNumber, Percentage]
+export type RGBA = [OctalNumber, OctalNumber, OctalNumber, number]
 
 export type Hue = RGB | RGBA
 
