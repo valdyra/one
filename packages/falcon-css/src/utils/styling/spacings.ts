@@ -1,6 +1,6 @@
 import { CssSize, VariableCssSize } from '$types'
 
-import { cssProperty } from '.'
+import { cssProperty } from './properties'
 import { cssSize, variableCssSize } from './parsers'
 
 // Margin functions

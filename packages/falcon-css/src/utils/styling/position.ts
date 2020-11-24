@@ -1,6 +1,6 @@
 import { Position, CssSize } from '$types'
 
-import { cssProperty } from '.'
+import { cssProperty } from './properties'
 import { cssSize, numberValue, stringValue } from './parsers'
 
 export const position = cssProperty<Position>(stringValue)('position')

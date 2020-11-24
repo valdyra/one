@@ -1,6 +1,6 @@
 import { VariableBorderStyle, VariableCssSize, VariableHue } from '$types'
 
-import { cssProperty } from '.'
+import { cssProperty } from './properties'
 import { variableBorderStyle, variableCssSize, variableHue } from './parsers'
 
 export const borderRadius = cssProperty<VariableCssSize>(variableCssSize)('border-radius')

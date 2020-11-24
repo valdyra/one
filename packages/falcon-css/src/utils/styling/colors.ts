@@ -1,6 +1,6 @@
 import { Hue } from '$types'
 
-import { cssProperty } from '.'
+import { cssProperty } from './properties'
 import { hue } from './parsers'
 
 // CSS general colored properties

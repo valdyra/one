@@ -1,5 +1,5 @@
 import { Display, FlexAlign, Flexbox, FlexDirection, FlexJustify, StrictFlexParams } from '$types'
-import { cssProperties, cssProperty } from '.'
+import { cssProperties, cssProperty } from './properties'
 import { numberValue, stringValue } from './parsers'
 
 // Display property
