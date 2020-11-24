@@ -26,5 +26,3 @@ export const flexbox = ([direction, justify, align, params]: Flexbox): string =>
     flexGrow(params?.grow ?? defaultFlexboxParams.grow),
     flexShrink(params?.shrink ?? defaultFlexboxParams.shrink),
   ])
-
-// Flexboxes
