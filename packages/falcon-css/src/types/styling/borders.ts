@@ -2,7 +2,6 @@ import { VariableValue } from '.'
 import { Hue } from './colors'
 import { CssSize } from './size'
 
-
 export enum BorderStyle {
   Dashed = 'dashed',
   Dotted = 'dotted',
