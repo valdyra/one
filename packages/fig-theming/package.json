@@ -1,16 +1,16 @@
 {
   "name": "@figouzes/fig-theming",
   "description": "Figouzes theming and design system",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
-  "main": "src",
+  "main": "src/index.ts",
   "scripts": {
     "prebuild": "rm -rf dist && mkdir dist",
     "build": "yarn run prebuild && tsc -p ./tsconfig.json --outDir dist && tscpaths -p ./tsconfig.json -s ./src -o ./dist",
     "prepare": "yarn run build"
   },
   "dependencies": {
-    "@figouzes/falcon-css": "^0.1.8"
+    "@figouzes/falcon-css": "^0.1.10"
   },
   "devDependencies": {
     "tscpaths": "^0.0.9",
