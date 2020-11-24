@@ -6,14 +6,17 @@
   "main": "src",
   "scripts": {
     "prebuild": "rm -rf dist && mkdir dist",
-    "build": "tsc -p ./tsconfig.json --outDir dist && tscpaths -p ./tsconfig.json -s ./src -o ./dist",
+    "build": "yarn run prebuild && tsc -p ./tsconfig.json --outDir dist && tscpaths -p ./tsconfig.json -s ./src -o ./dist",
     "prepare": "yarn run build"
   },
   "dependencies": {
-    "@figouzes/falcon-css": "^0.1.5"
+    "@figouzes/falcon-css": "^0.1.8"
   },
   "devDependencies": {
     "tscpaths": "^0.0.9",
     "typescript": "^4.0.5"
+  },
+  "engines": {
+    "node": "14"
   }
 }
