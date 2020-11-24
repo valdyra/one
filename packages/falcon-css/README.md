@@ -38,7 +38,7 @@ const myComponent = styled`
 `
 ```
 
-With aJSS-style framework
+With a JSS-style framework
 ```ts
 import {
   Display,
