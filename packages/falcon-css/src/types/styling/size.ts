@@ -5,6 +5,8 @@ export enum SizeUnit {
   Percent = '%',
   Px = 'px',
   Rem = 'rem',
+  Vh = 'vh',
+  Vw = 'vw',
 }
 
 export type CssSize = [number, SizeUnit]
