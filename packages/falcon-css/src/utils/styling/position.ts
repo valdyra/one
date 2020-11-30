@@ -1,9 +1,11 @@
-import { Position, CssSize } from '$types'
+import * as Css from 'csstype'
+
+import { CssSize } from '$types'
 
 import { cssProperty } from './properties'
 import { cssSize, numberValue, stringValue } from './parsers'
 
-export const position = cssProperty<Position>(stringValue)('position')
+export const position = cssProperty<Css.Property.Position>(stringValue)('position')
 export const zIndex = cssProperty<number>(numberValue)('z-index')
 
 export const top = cssProperty<CssSize>(cssSize)('top')

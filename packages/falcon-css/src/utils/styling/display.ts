@@ -1,16 +1,19 @@
-import { Display, FlexAlign, Flexbox, FlexDirection, FlexJustify, StrictFlexParams } from '$types'
+import * as Css from 'csstype'
+
+import { Flexbox, StrictFlexParams } from '$types'
+
 import { cssProperties, cssProperty } from './properties'
-import { numberValue, stringValue } from './parsers'
+import { numberOrStringValue, stringValue } from './parsers'
 
 // Display property
-export const display = cssProperty<Display>(stringValue)('display')
+export const display = cssProperty<Css.Property.Display>(stringValue)('display')
 
 // Flex properties
-export const alignItems = cssProperty<FlexAlign>(stringValue)('align-items')
-export const justifyContent = cssProperty<FlexJustify>(stringValue)('justify-content')
-export const flexDirection = cssProperty<FlexDirection>(stringValue)('flex-direction')
-export const flexGrow = cssProperty<number>(numberValue)('flex-grow')
-export const flexShrink = cssProperty<number>(numberValue)('flex-shrink')
+export const alignItems = cssProperty<Css.Property.AlignItems>(stringValue)('align-items')
+export const justifyContent = cssProperty<Css.Property.JustifyContent>(stringValue)('justify-content')
+export const flexDirection = cssProperty<Css.Property.FlexDirection>(stringValue)('flex-direction')
+export const flexGrow = cssProperty<Css.Property.FlexGrow>(numberOrStringValue)('flex-grow')
+export const flexShrink = cssProperty<Css.Property.FlexGrow>(numberOrStringValue)('flex-shrink')
 
 // Parse flexbox
 const defaultFlexboxParams: StrictFlexParams = {
@@ -20,7 +23,7 @@ const defaultFlexboxParams: StrictFlexParams = {
 
 export const flexbox = ([direction, justify, align, params]: Flexbox): string =>
   cssProperties([
-    display(Display.Flex),
+    display('flex'),
     flexDirection(direction),
     justifyContent(justify),
     alignItems(align),

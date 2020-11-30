@@ -3,6 +3,7 @@ import { BorderStyle, CssSize, Hue, RGB, RGBA, VariableValue } from '$types'
 // Literal union types or enums
 export const stringValue = <T extends string>(x: T): string => x
 export const numberValue = (x: number): string => `${x}`
+export const numberOrStringValue = <T extends string>(x: number | T): string => `${x}`
 
 export const multipleValues = <T>(parseFunc: (x: T) => string) => (values: T[]): string =>
   values.map(parseFunc).join(', ')
