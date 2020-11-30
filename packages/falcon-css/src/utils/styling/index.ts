@@ -1,6 +1,7 @@
 export * from './borders'
 export * from './colors'
 export * from './display'
+export * from './misc'
 export * from './parsers'
 export * from './position'
 export * from './properties'

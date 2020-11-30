@@ -1,9 +1,12 @@
 import * as Css from 'csstype'
 
-// Raw CSS property line
-export const cssProperty = <T>(parseFunc: (x: T) => string) => (
-  property: keyof Css.PropertiesHyphen
-) => (value: T): string => `${property}: ${parseFunc(value)};`
+const injectProperty = <PropertyKey>() => <PropertyType>(parseFunc: (x: PropertyType) => string) => (
+  property: PropertyKey
+) => (value: PropertyType): string => `${property}: ${parseFunc(value)};`
+
+// Single CSS property
+export const cssProperty = injectProperty<keyof Css.PropertiesHyphen>()
+export const untypedCssProperty = injectProperty<string>()
 
 // Join raw CSS properties
 export const cssProperties = (properties: string[]): string => properties.join('')
