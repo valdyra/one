@@ -1,7 +1,11 @@
+import * as Css from 'csstype'
+
 import { CssSize, VariableCssSize } from '$types'
 
 import { cssProperty } from './properties'
-import { cssSize, variableCssSize } from './parsers'
+import { cssSize, stringValue, variableCssSize } from './parsers'
+
+export const boxSizing = cssProperty<Css.Property.BoxSizing>(stringValue)('box-sizing')
 
 // Margin functions
 export const margin = cssProperty<VariableCssSize>(variableCssSize)('margin')
