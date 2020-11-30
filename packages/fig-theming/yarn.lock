@@ -2,10 +2,12 @@
 # yarn lockfile v1
 
 
-"@figouzes/falcon-css@^0.1.10":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@figouzes/falcon-css/-/falcon-css-0.1.11.tgz#76493238103531cdf60a934f612a0c67a8478b46"
-  integrity sha512-XSrFRKM5zqr/uZ0WIMjmHTFMFqYTISG4QHTwJHCgxcUcvxRAdzDGgWhwIFC2PAXkgXSBabvXTWJxQizsyq8tmA==
+"@figouzes/falcon-css@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@figouzes/falcon-css/-/falcon-css-0.3.0.tgz#7abafbee5777b0fa59d0f71fb04c54c68563d20c"
+  integrity sha512-NXUW+zp7X8YEEXVFWY+/43xu8XZ8Z35XQVO4fp9LNABIWpVqZYDHWaJWNXaElDO3GRoZVBC3WnXRZri9qdxBUQ==
+  dependencies:
+    csstype "^3.0.5"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -179,6 +181,11 @@ copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
+
+csstype@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.5.tgz#7fdec6a28a67ae18647c51668a9ff95bb2fa7bb8"
+  integrity sha512-uVDi8LpBUKQj6sdxNaTetL6FpeCqTjOvAQuQUa/qAqq8oOd4ivkbhgnqayl0dnPal8Tb/yB1tF+gOvCBiicaiQ==
 
 debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
