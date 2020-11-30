@@ -10,6 +10,8 @@ export const multipleValues = <T>(parseFunc: (x: T) => string) => (values: T[]):
 
 export const quotedValue = <T extends string>(x: T): string => `"${x}"`
 
+export const url = (x: string): string => `url(${quotedValue(x)})`
+
 // Font families
 export const fontFamilies = multipleValues<string>(quotedValue)
 
