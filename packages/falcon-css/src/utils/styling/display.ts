@@ -10,7 +10,9 @@ export const display = cssProperty<Css.Property.Display>(stringValue)('display')
 
 // Flex properties
 export const alignItems = cssProperty<Css.Property.AlignItems>(stringValue)('align-items')
-export const justifyContent = cssProperty<Css.Property.JustifyContent>(stringValue)('justify-content')
+export const justifyContent = cssProperty<Css.Property.JustifyContent>(stringValue)(
+  'justify-content'
+)
 export const flexDirection = cssProperty<Css.Property.FlexDirection>(stringValue)('flex-direction')
 export const flexGrow = cssProperty<Css.Property.FlexGrow>(numberOrStringValue)('flex-grow')
 export const flexShrink = cssProperty<Css.Property.FlexGrow>(numberOrStringValue)('flex-shrink')
