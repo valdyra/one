@@ -1,6 +1,6 @@
 import * as Css from 'csstype'
 
-import { Flexbox, StrictFlexParams } from '$types'
+import { Flexbox } from '$types'
 
 import { cssProperties, cssProperty } from './properties'
 import { numberOrStringValue, stringValue } from './parsers'
@@ -18,17 +18,10 @@ export const flexGrow = cssProperty<Css.Property.FlexGrow>(numberOrStringValue)(
 export const flexShrink = cssProperty<Css.Property.FlexGrow>(numberOrStringValue)('flex-shrink')
 
 // Parse flexbox
-const defaultFlexboxParams: StrictFlexParams = {
-  grow: 1,
-  shrink: 1,
-}
-
-export const flexbox = ([direction, justify, align, params]: Flexbox): string =>
+export const flexbox = ([direction, justify, align]: Flexbox): string =>
   cssProperties([
     display('flex'),
     flexDirection(direction),
     justifyContent(justify),
     alignItems(align),
-    flexGrow(params?.grow ?? defaultFlexboxParams.grow),
-    flexShrink(params?.shrink ?? defaultFlexboxParams.shrink),
   ])
