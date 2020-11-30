@@ -1,8 +1,8 @@
 import * as Css from 'csstype'
 
-const injectProperty = <PropertyKey>() => <PropertyType>(parseFunc: (x: PropertyType) => string) => (
-  property: PropertyKey
-) => (value: PropertyType): string => `${property}: ${parseFunc(value)};`
+const injectProperty = <PropertyKey>() => <PropertyType>(
+  parseFunc: (x: PropertyType) => string
+) => (property: PropertyKey) => (value: PropertyType): string => `${property}: ${parseFunc(value)};`
 
 // Single CSS property
 export const cssProperty = injectProperty<keyof Css.PropertiesHyphen>()
