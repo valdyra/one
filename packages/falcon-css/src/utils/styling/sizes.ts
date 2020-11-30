@@ -11,4 +11,9 @@ export const vh = (size: number): CssSize => [size, SizeUnit.Vh]
 export const vw = (size: number): CssSize => [size, SizeUnit.Vw]
 
 export const height = cssProperty<CssSize>(cssSize)('height')
+export const minHeight = cssProperty<CssSize>(cssSize)('min-height')
+export const maxHeight = cssProperty<CssSize>(cssSize)('max-height')
+
 export const width = cssProperty<CssSize>(cssSize)('width')
+export const minWidth = cssProperty<CssSize>(cssSize)('min-width')
+export const maxWidth = cssProperty<CssSize>(cssSize)('max-width')
