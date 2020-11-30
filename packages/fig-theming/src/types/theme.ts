@@ -1,5 +1,6 @@
 import { ColorPalette, CssSize } from '@figouzes/falcon-css'
 
+// Colors
 export interface DragonColors {
   red: ColorPalette
   blue: ColorPalette
@@ -8,6 +9,8 @@ export interface DragonColors {
   green: ColorPalette
   gold: ColorPalette
 }
+
+export type DragonColor = keyof DragonColors
 
 export interface ThemeColors {
   dragons: DragonColors
@@ -18,6 +21,7 @@ export interface ThemeColors {
 
 export type ThemeColor = keyof ThemeColors
 
+// Spacings
 export interface ThemeSpacings {
   tiny: CssSize
   small: CssSize
@@ -30,6 +34,7 @@ export interface ThemeSpacings {
 
 export type ThemeSpacing = keyof ThemeSpacings
 
+// Breakpoints
 export interface ThemeBreakpoints {
   mobile: CssSize
   tablet: CssSize
@@ -37,7 +42,16 @@ export interface ThemeBreakpoints {
   widescreen: CssSize
 }
 
+export type ThemeBreakpoint = keyof ThemeBreakpoints
+
+// Fonts
+export interface ThemeFonts {
+  primary: string
+}
+
+// Composed Theme
 export interface Theme {
   colors: ThemeColors
   spacings: ThemeSpacings
+  fonts: ThemeFonts
 }

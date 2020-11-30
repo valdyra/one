@@ -76,4 +76,7 @@ export const breakpoints: ThemeBreakpoints = {
 export const theme: Theme = {
   colors,
   spacings,
+  fonts: {
+    primary: 'Inter'
+  }
 }
