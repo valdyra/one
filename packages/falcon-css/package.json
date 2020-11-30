@@ -1,7 +1,7 @@
 {
   "name": "@figouzes/falcon-css",
   "description": "Typesafe CSS composer",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "license": "MIT",
   "main": "dist/index.js",
   "repository": "https://github.com/figouzes-articulees/fig-one/tree/main/packages/falcon-css",
