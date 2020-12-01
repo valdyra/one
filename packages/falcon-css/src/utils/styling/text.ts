@@ -6,13 +6,11 @@ import { cssProperty } from './properties'
 import { cssSize, hue, numberOrStringValue, stringValue } from './parsers'
 
 export const fontFamily = cssProperty<string>(stringValue)('font-family')
-
 export const fontSize = cssProperty<CssSize>(cssSize)('font-size')
-
 export const fontStyle = cssProperty<Css.Property.FontStyle>(stringValue)('font-style')
-
-export const fontWeight = cssProperty<Css.Property.FontWeight>(numberOrStringValue)('font-weight')
-
-export const lineHeight = cssProperty<CssSize>(cssSize)('line-height')
+export const fontVariant = cssProperty<Css.Property.FontVariant>(stringValue)('font-variant')
+export const fontWeight = cssProperty<Css.Property.FontWeight>(numberOrStringValue)('font-variant')
 
 export const textColor = cssProperty<Hue>(hue)('color')
+
+export const lineHeight = cssProperty<CssSize>(cssSize)('line-height')
