@@ -77,6 +77,6 @@ export const theme: Theme = {
   colors,
   spacings,
   fonts: {
-    primary: 'Inter'
-  }
+    primary: 'Inter',
+  },
 }

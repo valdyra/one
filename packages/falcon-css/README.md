@@ -1,4 +1,6 @@
-![FalconCSS](https://github.com/figouzes-articulees/fig-one/blob/main/packages/falcon-css/logo.svg)
+<p align="center">
+  <img alt="FalconCSS" src="https://github.com/figouzes-articulees/fig-one/blob/main/packages/falcon-css/logo.svg">
+</p>
 
 # What is FalconCSS ?
 
