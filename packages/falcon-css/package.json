@@ -4,6 +4,7 @@
   "version": "0.3.11",
   "license": "MIT",
   "main": "dist/index.js",
+  "author": "FalconPilot",
   "repository": "https://github.com/figouzes-articulees/fig-one/tree/main/packages/falcon-css",
   "keywords": [
     "css",

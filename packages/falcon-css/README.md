@@ -1,3 +1,5 @@
+![FalconCSS](https://github.com/figouzes-articulees/fig-one/blob/main/packages/falcon-css/logo.svg)
+
 # What is FalconCSS ?
 
 When contributing to the Figouzes project, I wanted to introduce a type-safe way to write CSS. I got used to a wonderful library called [elm-css](https://github.com/rtfeldman/elm-css), which is, in my opinion, a really optimal way of composing CSS (I could never thank RTFeldman enough for his work on elm-css).
