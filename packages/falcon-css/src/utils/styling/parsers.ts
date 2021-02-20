@@ -23,7 +23,7 @@ export const rgb = ([r, g, b]: RGB): string => `rgb(${r},${g},${b})`
 export const rgba = ([r, g, b, a]: RGBA): string => `rgba(${r},${g},${b},${a})`
 
 // RGB / RGBA hues
-export const hue = ([r, g, b, a]: Hue): string => (a ? rgba([r, g, b, a]) : rgb([r, g, b]))
+export const hue = ([r, g, b, a]: Hue): string => (typeof a === 'number' ? rgba([r, g, b, a]) : rgb([r, g, b]))
 
 // Variable values
 export const variableValues = <T>(parseFunction: (x: T) => string) => (
