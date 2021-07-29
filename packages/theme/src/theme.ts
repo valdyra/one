@@ -1,5 +1,5 @@
 import { DragonColors, Theme, ThemeBreakpoints, ThemeColors, ThemeSpacings } from '$types'
-import { SizeUnit } from '@figouzes/falcon-css'
+import { SizeUnit } from '@valdyra/falcon-css'
 
 export const dragonColors: DragonColors = {
   red: {

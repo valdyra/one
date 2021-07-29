@@ -1,4 +1,4 @@
-import { ColorPalette, CssSize } from '@figouzes/falcon-css'
+import { ColorPalette, CssSize } from '@valdyra/falcon-css'
 
 // Colors
 export interface DragonColors {

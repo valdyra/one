@@ -1,3 +1,3 @@
-# Fig-Theming
+# Valdyra Theme
 
-This is the design system for the Figouzes project
+This is the design system for the Valdyra project
