@@ -1,6 +1,6 @@
 {
-  "name": "@figouzes/fig-theming",
-  "description": "Figouzes theming and design system",
+  "name": "@valdyra/theme",
+  "description": "Valdyra theming and design system",
   "version": "0.1.4",
   "license": "MIT",
   "main": "dist/index.js",

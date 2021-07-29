@@ -1,11 +1,11 @@
 {
-  "name": "@figouzes/falcon-css",
+  "name": "@valdyra/falcon-css",
   "description": "Typesafe CSS composer",
   "version": "0.3.13",
   "license": "MIT",
   "main": "dist/index.js",
   "author": "FalconPilot",
-  "repository": "https://github.com/figouzes-articulees/fig-one/tree/main/packages/falcon-css",
+  "repository": "https://github.com/valdyra/one/tree/main/packages/falcon-css",
   "keywords": [
     "css",
     "typescript",
